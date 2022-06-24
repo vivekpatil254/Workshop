@@ -8,7 +8,7 @@
     <title>Address Book And Image</title>
     
 </head>
-<body>
+<body class="body">
 <header class="header">
         <div  class="logo">
             <img src="logo.png" alt="">
@@ -19,12 +19,16 @@
         </div>
 </header>
 <center><div class="box">
-    <div class="corner">PERSON ADDRESS FORM</div>
+    <div class="form-head">Address Book Form</div>           
+    <div class="form-content">
+        <form class=form action="#" onreset="resetForm()" onsubmit="save()">
+            <div class="row-content">
+                    <label class="label" for="fullName">Full Name</label>
+                    <input class="input" type="text" id="full-name" name="" placeholder="" required>                    
+            </div>
+            
 
-
-
-</div></center>
-
-
+    </form></div>
+    </div></center>
 </body>
 </html>
