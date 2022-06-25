@@ -1,7 +1,7 @@
 .body {
     margin: 0;
     height: 100;
-    background-color: rgb(245 241 232);
+    background-color: rgb(202, 197, 184);
 }
 
 .form-content{
@@ -18,36 +18,83 @@
     align-items: center;
     background:cornflowerblue;
     justify-content: center;
-    height: 30px;
+    height: 50px;
     flex-wrap: wrap;
 }
-.input{
+.option-fields{
     display: flex;
-	width: 400px;
+	justify-content: right;
+    flex-wrap: wrap ;
+    flex-direction: row;
+	padding:3px;
+	border-radius:2px;
+
+}
+.address-fields{
+    display: flex;
+	width: 132px;
+    padding: 5px;
+    margin: 3px;
+	border:1px solid rgb(13, 130, 240);
+	border-radius:2px;
+}
+.text-area{
+    display: flex;
+	width: 420px;
 	padding:3px;
 	border:1px solid rgb(13, 130, 240);
 	border-radius:2px;
-    height: 15px;
-	}
-
-.label{
-	min-width: 120px;
-    color: rgb(13, 130, 240);
-    font-family: 'Times New Roman', Times, serif ;
+    height: 60px;
 }
-.row-content{
-	display: flex;
-    padding: 10px;
-	flex-direction: row;
-	margin-bottom: 5px;
-	
+.input{
+    display: flex;
+	width: 420px;
+    height: 20px;
+	padding:3px;
+	border:1px solid rgb(13, 130, 240);
+	border-radius:2px;
+   
 	}
-    .close-logo{
+    
+    .label{
+        min-width: 120px;
+        color: rgb(13, 130, 240);
+        font-family: 'Times New Roman', Times, serif ;
+    }
+
+    .row-content{
+        display: flex;
+        padding: 20px;
+        flex-direction: row;
+        margin-bottom: 5px;
+	    }
+    .button-content{
+        display: flex;
+        padding: 10px;
+        flex-direction: row;
+        margin: 5ss 0px;
+        justify-content: right;
+        margin-bottom: 5px;        
+        }
+    .close-icon{
     display: flex ;
-    align-items:flex-end;
+    justify-content: right;
+    }
+    .button-conten{
+
+
+    }
+    .button{
+        justify-content: center;
+        background-color: rgb(191, 199, 207);
+        padding: 10px;
+        margin: 20px;
+        width: 100px;
+        border-radius: 5px;
+        border-color: rgb(13, 130, 240);;
     }
 .header{
-    background-color: rgb(245 241 232);
+    background-color: rgb(202, 197, 184);
     width: 10;
     height: 100;
 }
@@ -60,6 +107,10 @@
     border-radius: 5px;
     align-items: center;
     border: 1px solid rgb(240, 235, 209);
+    }
+    .text{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
     }
 .logo{
     display: flex;
